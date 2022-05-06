@@ -1,14 +1,16 @@
-body{
-    ;
+/*-------------------------------------------- PANTALLA DE INICIO------------------------------------------------------------*/
+
+.body-index{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #1a0321;
+    background-image: linear-gradient(to right, #e76f51 0%, #fff 100%);
     flex-direction: column;
 }
 
-a{
+.btn-inicio{
     position: relative;
     display: inline-block;
     padding: 25px 46px;
@@ -20,37 +22,42 @@ a{
     letter-spacing: 2px;
     border-radius: 40px;
     overflow: hidden;
-    background: linear-gradient(90deg, #0162c8, #55e7fc); 
+    /*background-image: linear-gradient(60deg, #c2e59c 0%, #64b3f4 100%);*/
+    background-color: #CD8E94;
     font-family: 'Roboto Flex', sans-serif;
 }
 
-a:nth-child(2)
+.btn-inicio:nth-child(2)
 {
-    background: linear-gradient(90deg,#755bea,#ff72c0);
+   /*background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);*/
+    background-color: #e9c46a;
 }
 
-span{
-    position: absolute;
-    background: #fff;
-    transform: traslate(-50%, -50%);
-    pointer-events: none;
-    border-radius: 50%;
-    animation: animate 1s linear infinite;
+.btn-inicio:hover{
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 0 #fe5196, -10px 10px 25px #f77062;
+    cursor: pointer;
+    transition: 1s;
+    background-color: #D8A8AD;
 }
 
-@keyframes animate{
-    0%
-    {
-        width: 0px;
-        height: 0px;
-        opacity: 0.5;
-        
-    }
-    100%
-    {
-        width: 500px;
-        height: 500px;
-        opacity: 0;
-        
-    }
+.bienvenido-letra{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
 }
+.sesion-letra{
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+}
+
+
+/*-------------------------------------------- PANTALLA DE REGISTRO------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+

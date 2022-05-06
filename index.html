@@ -1,40 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>PosteCars inicio</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@700&family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
 
 <body>
+    <main class="body-index">
+        <h1 class="bienvenido-letra"> ¡Bienvenido a PosteCars!</h1>
+        <h3 class="sesion-letra"> Inicia sesión con nosotros</h3>
     <a href="#" class="btn-inicio">   
         INICIAR SESIÓN
     </a>
-    <a href="#" class="btn-inicio">   
+        <h3 class="sesion-letra"> O haz tu regístro</h3>
+    <a href="Registro.html" class="btn-inicio">   
         REGISTRARSE
     </a>
- <!--animacion-->
-    <script type = "text/javascript">
-        const buttons = document.querySelectorAll('a');
-        buttons.forEach(btn => {
-            btn.addEventListener('click', function(e){
-                
-                let x = e.clientX - e.target.offsetLeft;
-                let y = e.clientY - e.target.offsetTop;
-                
-                let ripples = document.createElement('span');
-                ripples.style.left = x + 'px';
-                ripples.style.top = y + 'px';
-                this.appendChild(ripples);
-                
-                setTimeOut(()=> {
-                    ripples.remove()
-                },1000);
-            })
-        })
-    </script>
+
+    </main>
+
+
+
 </body>
+
 </html>
