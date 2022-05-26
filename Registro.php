@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,24 +12,22 @@
 </head>
 
 
-
-
 <body class="body-registro">
 
     <form action="" method="POST" id="form">
         <div class="form">
             <h1 class="registro-letra"> Registro </h1>
             <div class="grupo">
-                <input type="text" name="" id="name" required><span class="barra"></span>
+                <input type="text" name="Nombre" id="Nombre" required><span class="barra"></span>
                 <label for="">Nombre</label>
 
             </div>
             <div class="grupo">
-                <input type="email" name="" id="name" required><span class="barra"></span>
+                <input type="email" name="Correo" id="Correo" required><span class="barra"></span>
                 <label for="">Correo institucional</label>
             </div>
             <div class="grupo">
-                <input type="Password" name="" id="name" required><span class="barra"></span>
+                <input type="Password" name="Contraseña" id="Contraseña" required><span class="barra"></span>
                 <label for="">Contraseña de e-siima</label>
             </div>
             <button type="submit">¡Regístrate!</button>

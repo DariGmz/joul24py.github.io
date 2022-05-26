@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,11 +16,11 @@
 
     <h1 class="bienvenido-letra"> ¡Bienvenido a PosteCars!</h1>
     <h3 class="sesion-letra"> Inicia sesión con nosotros</h3>
-    <a href="#" class="btn-inicio">   
+    <a href="Login.php" class="btn-inicio">   
         INICIAR SESIÓN
     </a>
     <h3 class="sesion-letra"> O haz tu regístro</h3>
-    <a href="Registro.html" class="btn-inicio">   
+    <a href="Registro.php" class="btn-inicio">   
         REGISTRARSE
     </a>
 
